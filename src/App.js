@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 import {
   BrowserRouter as Router,
@@ -13,6 +13,8 @@ import HomePage from './HomePage/HomePage';
 import Footer from './Footer/Footer';
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
+import MyChart1 from './MyChart1/MyChart1';
+import MyChart2 from './MyChart2/MyChart2';
 
 
 
@@ -35,6 +37,8 @@ function App() {
           </Route> 
         </Switch>
       </div>
+      <MyChart1/>
+      <MyChart2/>
       <Footer/>
     </Router>
   );

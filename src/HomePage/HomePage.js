@@ -68,12 +68,12 @@ function HomePage() {
             </article>
             
            
-            <article className="text-box">
+            {/* <article className="text-box">
                 <h1 className="header-color">Chart</h1>
                 <p>
                     <canvas id="myChart" width="400" height="400"></canvas>
                 </p>
-            </article>
+            </article> */}
 
         </div>
 
