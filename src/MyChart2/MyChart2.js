@@ -3,7 +3,7 @@ import * as d3 from 'd3';
 import axios from "axios";
 
 
-function PieChart(props) {
+function MyChart2(props) {
 
   const [dataSource, setDataSource]=useState([]);
 
@@ -89,7 +89,9 @@ function PieChart(props) {
       });
   }    
 
-  return <div id="pie-container" width="400" height="400" />;
+  return (
+    <div className="App" id="pie-container"/>
+  );
 }
 
-export default PieChart;
+export default MyChart2;

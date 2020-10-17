@@ -1,4 +1,6 @@
 import React from 'react';
+import MyChart1 from '../MyChart1/MyChart1';
+import MyChart2 from '../MyChart2/MyChart2';
 
 
 function HomePage() {
@@ -66,6 +68,16 @@ function HomePage() {
                     because they know it is all good and accounted for.
                 </p>
             </article>
+
+            <article className="text-box">
+                <h1 className="header-color">Free</h1>
+                <p>
+                    This app is free!!! And you are the only one holding your data!
+                </p>
+            </article>
+
+            <MyChart1/>
+            <MyChart2/>
             
            
             {/* <article className="text-box">

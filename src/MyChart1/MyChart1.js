@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Chart from "chart.js";
 import axios from "axios";
 
-export default function App() {
+export default function MyChart1() {
 
   useEffect(() => {
     var dataSource = {
@@ -46,3 +46,4 @@ export default function App() {
     </div>
   );
 }
+
